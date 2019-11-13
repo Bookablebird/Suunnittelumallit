@@ -9,7 +9,7 @@ public class Charmaleon implements PokemonState {
 
     @Override
     public void prev(Pokemon pkmn) {
-    	pkmn.setState(new Charmaleon());
+    	pkmn.setState(new Charmander());
     }
 
     @Override
