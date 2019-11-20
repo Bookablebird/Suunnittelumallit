@@ -9,7 +9,6 @@ public class Main {
         List<Image> list = new ArrayList();
         ListIterator<Image> iterator;
         Scanner s = new Scanner(System.in);
-        boolean suunta = true;
         boolean exit = false;
 
         String imgName = "HiRes_10MB_Photo";
@@ -32,7 +31,7 @@ public class Main {
                             iterator.next().displayImage();
                     	}
                     	else {
-                            System.out.println("Ei ole en‰‰n seuraavaa kuvaa.");
+                            System.out.println("Ei ole en√§√§n seuraavaa kuvaa.");
                         }
                         break;
 
@@ -41,7 +40,7 @@ public class Main {
                             iterator.previous().displayImage();
                     	}
                         else {
-                            System.out.println("Ei ole en‰‰n edellist‰ kuvaa.");
+                            System.out.println("Ei ole en√§√§n edellist√§ kuvaa.");
                         }
                         break;
 
